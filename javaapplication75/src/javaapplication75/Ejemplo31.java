@@ -73,10 +73,10 @@ public class Ejemplo31 {
         }
 
         // se imprime un titulo
-        System.out.println("Notas Ingresadas");
+        System.out.println("Notas Ingresadas\nRangos:");
         // se imprime la cantidad de notas guardadas en cada rango
         for (int i = 0; i < datos.length; i++) {
-            System.out.printf("Rangos:\n%s = %d\n", rangos[i], datos[i]);
+            System.out.printf("%s = %d\n", rangos[i], datos[i]);
         }
     }
 }
